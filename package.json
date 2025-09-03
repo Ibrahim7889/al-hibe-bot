@@ -1,0 +1,21 @@
+{
+  "name": "al-hibe-instagram-facebook-bot",
+  "version": "1.0.0",
+  "description": "Al Hibe Gold DM bot (Messenger + Instagram) with AR-48 dialect and no online payment.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
